@@ -25,9 +25,7 @@ def now_serving(number)
   if number.length==0
 puts "There is nobody waiting to be served!"
 else
-  number.each do |name|
-    puts "Currently serving #{name}."
-end
-number.shift
+  puts "Currently serving #{number(0)}."
+  number.shift
 end
 end
