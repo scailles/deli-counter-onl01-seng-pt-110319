@@ -27,7 +27,7 @@ puts "There is nobody waiting to be served!"
 else
   number.each do |name|
     "Currently serving #{name}"
-    number.shift
 end
+number.shift
 end
 end
