@@ -29,6 +29,4 @@ else
     "Now serving #{name}"
     number.shift
 end
-puts number
-end
 end
